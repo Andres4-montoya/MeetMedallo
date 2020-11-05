@@ -1,0 +1,64 @@
+*{
+
+scrollbar-width: 100px;
+}
+
+.SitiosSugeridos{
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    display: grid;
+    padding: 0%;    
+    background-color: rgb(51, 47, 47);
+
+    
+
+
+}
+
+
+.Primero{
+    grid-column: 1;
+    grid-row: 1;
+    height:400px;
+
+
+
+
+}
+.Segundo{
+    grid-row: 1;
+    grid-column: 2;
+    height:400px;
+}
+
+.Tercero{
+    grid-row: 1;
+    grid-column: 3;
+    height:400px;
+}
+
+
+.Cuatro{
+    grid-row: 2;
+    grid-column: 1;
+    height:400px;
+ 
+}
+
+.Cinco{
+    grid-row: 2;
+    grid-column: 2;
+    height:400px;
+ 
+}
+
+.Seis{
+    grid-row: 2;
+    grid-column: 3;
+    height:400px;
+   
+}
+
+
+

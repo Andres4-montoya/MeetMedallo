@@ -1,0 +1,37 @@
+.Contactanos{
+    grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+display: grid;
+padding: 0%;    
+
+
+}
+
+/*.foto1{
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    float: left; 
+    width: 250px;
+  height: 100px;
+}*/
+.Primero1{
+    grid-column: 1;
+    grid-row: 1;
+    height:500px;
+
+
+
+}
+.Segundo2{
+    grid-row: 1 ;
+    grid-column: 2;
+    height:500px;
+}
+
+.Tercero3{
+    grid-row: 1;
+    grid-column: 3;
+    height:500px;
+}

@@ -1,0 +1,15 @@
+
+
+
+.Boton{
+    justify-content: center;
+    padding: 25px;
+    display:grid;
+    grid-gap:100px;
+    grid-column: 4;
+    grid-row: 4;
+    height:200px;
+    margin-top: 180px; 
+    
+  
+}
